@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class OrderConfig(AppConfig):
+class InventoryConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "apps.order"
+    name = "lemmo_apps.inventory"

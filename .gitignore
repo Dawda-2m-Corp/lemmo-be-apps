@@ -10,8 +10,41 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+ENV/
+env/
 uv.lock
 
+# Database
 db.sqlite3
+*.sqlite3
 
+# Configuration files
 config.yml
+*.env
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Logs
+*.log
+logs/
+log/
+
+# Unit test / reports
+.pytest_cache/
+.tox/
+nosetests.xml
+test-reports/

@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class FhirApiConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "apps.fhir_api"
+    name = "lemmo_apps.fhir_api"
