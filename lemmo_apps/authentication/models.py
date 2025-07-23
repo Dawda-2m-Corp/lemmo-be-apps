@@ -44,7 +44,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     REQUIRED_FIELDS = ["first_name", "last_name"]
 
     def __str__(self):
-        return f"{self.email} ({self.get_role_display()})"
+        return f"{self.email}"
 
     @property
     def full_name(self):
