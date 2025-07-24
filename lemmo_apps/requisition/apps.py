@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class FacilityConfig(AppConfig):
+class RequisitionConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "lemmo_apps.facility"
+    name = "lemmo_apps.requisition"
