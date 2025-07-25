@@ -177,6 +177,7 @@ class Command(BaseCommand):
                 brand_name = None
 
             product_data = {
+                "code": f"PROD{fake.unique.random_number(digits=6)}",
                 "name": name,
                 "description": fake.text(max_nb_chars=300),
                 "category": random.choice(categories),

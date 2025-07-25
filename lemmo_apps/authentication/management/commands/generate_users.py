@@ -119,7 +119,7 @@ class Command(BaseCommand):
                 "user_agent": fake.user_agent(),
                 "metadata": {
                     "browser": fake.chrome(),
-                    "os": fake.linux_platform(),
+                    "os": fake.linux_platform_token(),
                     "device": fake.android_platform_token(),
                 },
             }
