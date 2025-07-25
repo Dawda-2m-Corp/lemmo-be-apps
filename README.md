@@ -2,6 +2,10 @@
 
 A comprehensive Django-based backend system for healthcare logistics and supply chain management. This system is designed to handle the complex requirements of healthcare facilities, including medication management, supplier relationships, transportation, and regulatory compliance.
 
+## 📚 Documentation
+
+- **[Frontend Developer Workflow](./docs/frontend-workflow.md)** - Comprehensive guide for frontend developers integrating with the system
+
 ## 🏥 Features
 
 ### Core Modules
