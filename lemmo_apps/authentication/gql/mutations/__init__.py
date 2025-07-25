@@ -7,6 +7,7 @@ from .user_mutations import (
 )
 from .session_mutations import CreateSession, EndSession
 from .activity_mutations import LogActivity
+from .auth_mutations import AuthMutations
 
 __all__ = [
     "CreateUser",
@@ -17,4 +18,5 @@ __all__ = [
     "CreateSession",
     "EndSession",
     "LogActivity",
+    "AuthMutations",
 ]

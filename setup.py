@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "Django>=4.2.0,<5.0.0",
+        "Django>=5.0.0",
         "djangorestframework>=3.14.0",
         "django-cors-headers>=4.0.0",
         "graphene-django>=3.1.0",
