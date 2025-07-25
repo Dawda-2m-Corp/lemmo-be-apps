@@ -118,6 +118,11 @@ class UserSession(models.Model):
     def __str__(self):
         return f"Session for {self.user.email}"
 
+    def end_session(self):
+        """End the session by setting is_active to False"""
+        self.is_active = False
+        self.save()
+
 
 class UserActivity(models.Model):
     ACTIVITY_TYPES = [
