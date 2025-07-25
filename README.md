@@ -5,6 +5,7 @@ A comprehensive Django-based backend system for healthcare logistics and supply 
 ## 📚 Documentation
 
 - **[Frontend Developer Workflow](./docs/frontend-workflow.md)** - Comprehensive guide for frontend developers integrating with the system
+- **[Data Generation Commands](./docs/data-generation.md)** - Guide for generating test data using Django management commands
 
 ## 🏥 Features
 
