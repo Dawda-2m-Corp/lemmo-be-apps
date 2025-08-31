@@ -1,12 +1,11 @@
 from django.core.management.base import BaseCommand
-from django.contrib.auth import get_user_model
 from faker import Faker
 from lemmo_apps.authentication.models import UserSession, UserActivity
 import random
 from datetime import timedelta
 from django.utils import timezone
+from lemmo_apps.authentication.models import User
 
-User = get_user_model()
 fake = Faker()
 
 
